@@ -1,0 +1,28 @@
+{
+  "name": "taskgroup",
+  "version": "1.0.0",
+  "description": "Aplikasi Pembagian Tugas Kelompok",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "keywords": [],
+  "author": "Nita",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^45.0.0",
+    "electron-builder": "^26.0.0"
+  },
+  "build": {
+    "appId": "com.taskgroup.app",
+    "productName": "TaskGroup",
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "allowScripts": {
+    "electron-winstaller@5.4.0": true
+  }
+}
